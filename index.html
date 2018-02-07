@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="clock2.ico">
+    <script src="javascript.js" type="text/javascript" async></script>
+    
+    <title>What's The Time?</title>
+</head>
+<body>
+    <div>
+        <h4 id="response">I wonder what time it is..</h4>
+    </div>
+    <div>
+        <h3>Enter the current time</h3><br>
+        <form id="form" action="">
+            Hour: <input type="number" id="hour"> : 
+            Minutes: <input type="number" id="minutes"> 
+            AM/PM: <input type="text" id="am/pm">
+            <input type="button" onclick="theTime()" value="Submit">
+            <img src="clock2.ico" alt="Clock">  
+        </form>
+    </div>
+</body>
+</html>

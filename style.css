@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 10px;
+    background-image: linear-gradient(45deg, aqua, blue);
+}
+div{
+    border-style: outset;
+    width: 700px;
+    height: auto;
+    padding: 15px;
+    background-image: linear-gradient(0deg, #EBEBEB, grey);
+    margin: 15px auto;   
+}
+h4{
+    text-align: center;
+    margin: 40px auto;
+}
+img{
+    width: 700px;
+    height: 500px;
+    margin: 15px auto
+}
